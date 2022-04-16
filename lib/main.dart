@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test_fit_app/home.dart';
+import 'package:flutter_test_fit_app/home/index.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
-      home: const MyHomePage(title: 'Home Page'),
+      home: const HomeScreen(),
     );
   }
 }
